@@ -148,3 +148,83 @@ body {
 
 ![Image 4](../../images/CSS1.png)
 ![Image 5](../../images/CSS2.png)
+
+I have also included a page tracker in my web-page.
+
+### Technical Requirements
+
+I have written a javascript code using jQuery and moment library. I implemented the code for the digital clock,analog clock,showEmail button and the weather integration functionality. I styled the analog clock using CSS by adding the necessary functionalities in it. 
+
+Here is the javascript code - 
+
+```
+$(document).ready(function(){ 
+    $("#email").hide();
+    $("#showEmail").click(function(){
+        $("#email").toggle();
+    });
+
+    
+    function updateClock() {
+        var now = new Date();
+        var hours = now.getHours();
+        var minutes = now.getMinutes();
+        var seconds = now.getSeconds();
+        var timeString = hours + ':' + ('0' + minutes).slice(-2) + ':' + ('0' + seconds).slice(-2);
+        $('#clock').text(timeString);
+    }
+    setInterval(updateClock, 1000);
+
+    
+    function updateAnalogClock() {
+        var now = new Date();
+        var seconds = now.getSeconds();
+        var minutes = now.getMinutes();
+        var hours = now.getHours();
+        var secDeg = ((seconds / 60) * 360) + 90;
+        var minDeg = ((minutes / 60) * 360) + ((seconds/60)*6) + 90;
+        var hourDeg = ((hours / 12) * 360) + ((minutes/60)*30) + 90;
+        $('.second').css('transform', 'rotate(' + secDeg + 'deg)');
+        $('.minute').css('transform', 'rotate(' + minDeg + 'deg)');
+        $('.hour').css('transform', 'rotate(' + hourDeg + 'deg)');
+    }
+    setInterval(updateAnalogClock, 1000);
+    updateAnalogClock();
+```
+
+Here is the CSS code for styling of the analog clock - 
+
+```
+#analogClock {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border: 8px solid black;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+#analogClock .hour, #analogClock .minute, #analogClock .second {
+    position: absolute;
+    width: 50%;
+    background: black;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: transform 0.5s cubic-bezier(0.4, 2.3, 0.3, 1);
+}
+
+#analogClock .hour {
+    height: 4px;
+}
+
+#analogClock .minute {
+    height: 2px;
+}
+
+#analogClock .second {
+    height: 1px;
+    background: red;
+}
+``` 
+
