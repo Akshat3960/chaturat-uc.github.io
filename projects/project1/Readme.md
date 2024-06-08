@@ -9,4 +9,7 @@
 
 ![Akshat's headshot](../../images/Headshot.jpg) 
 
+## Repository Information
+
+**Repository-URL**: https://github.com/Akshat3960/chaturat-uc.github.io 
 
