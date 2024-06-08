@@ -123,3 +123,5 @@ Here is the code for waph.html page -
 ```
 
 ![Image 3](../../images/waph.png)
+
+The link is directed towards the page as shown in the screenshot above.
