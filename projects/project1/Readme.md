@@ -235,6 +235,6 @@ Before pressing the showemail button
 ![Image 7](../../images/Email2.png)
 After pressing the showemail button
 
-![Image 8](../../images/Email2.png)
+![Image 8](../../images/clock.png)
 
 The image above shows the digital clock, analog clock and the programming joke displayed at the bottom. I have also included a disclaimer statement as the content of the joke is from a third-party source.
