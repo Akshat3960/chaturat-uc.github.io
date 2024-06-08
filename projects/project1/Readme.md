@@ -19,7 +19,7 @@ In this project I have deployed a personal website on github.io using the front-
 
 ### General Requirements 
 
-Firstly, I created a simple webpage using HTML in which I have included my headshot,name,contact information,background,education,experiences and skills and a link to the waph page introducing the web application programming and hacking course.
+Firstly, I created a simple webpage using HTML in which I have included my headshot,name,contact information,background,education,experiences and skills and a link to the waph page introducing the web application programming and hacking course. I included a "Show email" button in it as well as a link to my linkedin Profile in the webpage.
 
 Here is the code for it - 
 ```
@@ -79,3 +79,6 @@ Here is the code for it -
 ```
 ![Image 1](../../images/HTML1.png)
 ![Image 2](../../images/HTML2.png)
+
+### Non-Technical Requirements
+
