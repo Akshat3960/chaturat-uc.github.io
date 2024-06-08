@@ -125,3 +125,23 @@ Here is the code for waph.html page -
 ![Image 3](../../images/waph.png)
 
 The link is directed towards the page as shown in the screenshot above.
+
+### Non-Technical Requirements
+
+I used CSS for styling the headshot picture and change the font of the text in my webpage.
+
+Here is the code for it - 
+```
+body {
+    font-family: Times New Roman, sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.img-thumbnail {
+    border-radius: 50%;
+}
+
+``` 
