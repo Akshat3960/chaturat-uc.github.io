@@ -231,10 +231,13 @@ Here is the CSS code for styling of the analog clock -
 After it, I added the jokeAPI integration in my javascript code for displaying programming related jokes. A new joke appears every next minute. Then, I implemented javascript cookies, in order to display a welcome statement when a user opens the page for the first time, also if the user opens the page again, it remembers the last time when the user opened the page and displays the date and time when the page last got opened.
 
 ![Image 6](../../images/Email1.png)
+
 Before pressing the showemail button
+
 ![Image 7](../../images/Email2.png)
+
 After pressing the showemail button
 
 ![Image 8](../../images/clock.png)
 
-The image above shows the digital clock, analog clock and the programming joke displayed at the bottom. I have also included a disclaimer statement as the content of the joke is from a third-party source.
+The image below shows the digital clock, analog clock and the programming joke displayed at the bottom. I have also included a disclaimer statement as the content of the joke is from a third-party source.
